@@ -1,0 +1,20 @@
+{
+  "name": "angular-units",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha examples/**/__tests__/**/*.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "angular-mocks": "^1.4.1",
+    "chai": "^3.0.0",
+    "jsdom": "^5.6.0",
+    "mocha": "^2.2.5"
+  },
+  "dependencies": {
+    "angular": "^1.4.1"
+  }
+}
