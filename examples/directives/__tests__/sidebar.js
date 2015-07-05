@@ -1,16 +1,16 @@
 /*global it, describe, beforeEach, ngModule, inject */
 
-require('../../../test-helper');
+require('test-helper');
 require('../sidebar');
 
-var chai = require('chai');
-var expect = chai.expect;
+var expect = require('chai').expect;
 
 describe('directive', function() {
   beforeEach(ngModule('directives.sidebar'));
 
-  it('should...', inject(function($compile) {
-    var compiled = $compile('<div sidebar></div>')({})[0];
-    expect(compiled.className).to.contain('sidebar');
+  it('should have proper classname', inject(function($rootScope, $compile) {
+    var scope = $rootScope.$new();
+    var compiled = $compile('<div sidebar></div>')(scope);
+    expect(compiled.attr('class')).to.contain('sidebar');
   }));
 });
