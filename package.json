@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "mocha examples/**/__tests__/**/*.js"
+    "test": "NODE_PATH=./ mocha examples/**/__tests__/**/*.js"
   },
   "author": "",
   "license": "ISC",

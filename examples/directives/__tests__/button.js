@@ -1,6 +1,6 @@
 /*global it, describe, beforeEach, ngModule, inject */
 
-require('../../../test-helper');
+require('test-helper');
 require('../button');
 
 var expect = require('chai').expect;
