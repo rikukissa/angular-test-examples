@@ -1,6 +1,7 @@
-/*global it, describe, beforeEach, ngModule, inject */
+var helpers = require('test-helper');
+var ngModule = helpers.module;
+var inject = helpers.inject;
 
-require('test-helper');
 require('../sidebar');
 
 var expect = require('chai').expect;
