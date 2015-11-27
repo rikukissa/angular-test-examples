@@ -7,7 +7,7 @@ var window = global.window = document.defaultView;
 
 
 global.navigator = window.navigator = {};
-global.Node = window.Node ;
+global.Node = window.Node;
 
 /*
  * angular-mocks
