@@ -7,7 +7,7 @@ _Lean unit tests with minimal setup_
 * I'm assuming you are already using browserify (but everything works fine without it)
 
 ## Some background
-Majority of search result about unit testing Angular.js apps is about how to do it by using test frameworks that run the tests in a real browser. Even though it's great to be able to test your code in multiple platform, in my opinion it creates a lot of boilerplate code and makes it hard to run the tests in, for instance a CI-server.
+Majority of search result about unit testing Angular.js apps is about how to do it by using test frameworks that run the tests in a real browser. Even though it's great to be able to test your code in multiple platforms, in my opinion it creates a lot of boilerplate code and makes it hard to run the tests in, for instance a CI-server.
 
 In most cases I just want to include a module from my code to my tests, call methods from the module and do assertions to assure that everything is working properly.
 
